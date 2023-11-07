@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1699338270" />
+    <testcase name="filter_test" classname="tb_fir_filter" file="/mnt/c/Users/satjp/OneDrive/Documents/FIR_Filter_Project/FIR-Filter-Design-in-SystemVerilog/tb_fir_filter.py" lineno="24" time="24.141263961791992" sim_time_ns="518.001" ratio_time="21.457078669113276" />
+  </testsuite>
+</testsuites>
