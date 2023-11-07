@@ -11,15 +11,19 @@ The hardware implementation is of the form of a Transpose FIR filter, referred f
 (https://www.allaboutcircuits.com/technical-articles/pipelined-direct-form-fir-versus-the-transposed-structure/)
 
 We generate a low frequency signal with an arbitrary high frequency signal to create a noisy signal. 
+
 ![Alt text](sim_build/Fig1.png)
 
 As we can see, the practical filter (implemented on SystemVerilog) 
+
 ![Alt text](sim_build/Fig4.png) 
 
 is nearly same as the theoretical one implemented in Python. 
+
 ![Alt text](sim_build/Fig5.png)
 
 In fact, if we superimpose them on one another, we can see that the output from both the cases is nearly identical. 
+
 ![Alt text](sim_build/Fig6.png)
 
 ## Project status
