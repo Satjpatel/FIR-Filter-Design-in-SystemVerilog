@@ -5,7 +5,7 @@ The file `fir_filter.py` extracts the co-efficients needed for a 7 tap FIR filte
 
 As the following figure shows, the rounding off of the real co-effecients does not deviate the frequency spectrum by much.
 
-![Alt text](Co_eff_comparison.png)
+![Alt text](Images/Co_eff_comparison.png)
 
 The hardware implementation is of the form of a Transpose FIR filter, referred from this blog: 
 (https://www.allaboutcircuits.com/technical-articles/pipelined-direct-form-fir-versus-the-transposed-structure/)
