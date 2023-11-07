@@ -124,18 +124,3 @@ async def filter_test(dut):
     plt.plot(x_axis, pyfilter_fft, marker = 'o')
     plt.title('Fig6: Practical and Theoretical Response Together')
     plt.savefig('Fig6.png')
-    
-    
-    # plt.plot(x_axis, out_fft, marker='x')
-    # plt.plot(x_axis, pred_fft, marker='o')
-    # plt.title('Output of DUT: Frequency Domain Response')
-    # plt.plot(x_axis, filt_fft)
-    # plt.grid()
-    # plt.xlabel('Normalized Frequency')
-    # plt.ylabel('dB')
-    # plt.title('Filter Response')
-    # plt.xlim([-.5, .5])
-    # plt.legend(['output', 'pred', 'filter'])
-    plt.show()
-    # plt.figure(figsize=(10,6))
-    plt.savefig("Final_minus11111.png")
