@@ -35,7 +35,7 @@ In fact, if we superimpose them on one another, we can see that the output from 
 - [x] Complete Documentation
 - [] Possible optimizations to think of and try
 
-
+Note: All the graphs are of Normalized Frequency (x-axis) vs dB (y-axis)
 
 References: 
 1. https://www.allaboutcircuits.com/technical-articles/pipelined-direct-form-fir-versus-the-transposed-structure/
